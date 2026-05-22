@@ -10,6 +10,7 @@ public class CreateInitializeTwo {
 
         //  We now have two objects created from the same class; however, they are distinct entities.
         System.out.println(thing.equals(thing1));
+        System.out.println(thing == thing1);
 
         // Because...
         System.out.println(thing.hashCode());
